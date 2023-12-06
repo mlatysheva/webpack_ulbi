@@ -1,3 +1,3 @@
 import { calculate } from './test';
 
-console.log(calculate(1, 2)); // 3
+console.log(calculate(511, 223)); // 3

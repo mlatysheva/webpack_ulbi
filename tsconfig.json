@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es6",
+    "module": "ESNext",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
+    // esModuleInterop: true allows you to import CommonJS modules into your TypeScript files without having to use require()
     "noImplicitAny": true,
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
+    // allowSyntheticDefaultImports: true allows you to import modules that don't have a default export, 
+    // instead of writing import * as express from 'express' you can write import express from 'express'
   },
   "ts-node": {
     "compilerOptions": {
