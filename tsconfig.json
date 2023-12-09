@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     // esModuleInterop: true allows you to import CommonJS modules into your TypeScript files without having to use require()
     "noImplicitAny": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
