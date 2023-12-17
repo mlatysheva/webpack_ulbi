@@ -14,6 +14,10 @@
     "allowSyntheticDefaultImports": true,
     // allowSyntheticDefaultImports: true allows you to import modules that don't have a default export, 
     // instead of writing import * as express from 'express' you can write import express from 'express'
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
   },
   "ts-node": {
     "compilerOptions": {
