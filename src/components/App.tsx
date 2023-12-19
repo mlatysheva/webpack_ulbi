@@ -10,21 +10,21 @@ export const App = () => {
 
   const increment = () => setCount(count + 1);
 
-  if (__PLATFORM__ === 'mobile') {
-    return (
-      <div>
-        <h1>Mobile</h1>
-      </div>
-    )
-  }
+  // if (__PLATFORM__ === 'mobile') {
+  //   return (
+  //     <div>
+  //       <h1>Mobile</h1>
+  //     </div>
+  //   )
+  // }
 
-  if (__PLATFORM__ === 'desktop') {
-    return (
-      <div>
-        <h1>Desktop</h1>
-      </div>
-    )
-  }
+  // if (__PLATFORM__ === 'desktop') {
+  //   return (
+  //     <div>
+  //       <h1>Desktop</h1>
+  //     </div>
+  //   )
+  // }
 
   return (
     <div>
@@ -36,7 +36,7 @@ export const App = () => {
       <img src={avatarPng} alt='' height={100} width={100} />
       <img src={avatarJpeg} alt='' height={100} width={100} />
       <div>
-        <Avatar style={{color: 'red'}} height={100} width={100} />
+        <Avatar style={{color: 'darkred'}} height={100} width={100} />
       </div>
 
       <h1>{count}</h1>

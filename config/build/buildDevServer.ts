@@ -7,5 +7,6 @@ export function buildDevServer(options: BuildOptions): DevServerConfiguration {
     open: true,
     // If static pages are served from nginx, for example, proxy links to index.html must be implemented
     historyApiFallback: true,
+    hot: true,
   };
 }
