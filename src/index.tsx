@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import { App } from '@/components/App';
-import { StrictMode, Suspense } from 'react';
+import React, { StrictMode, Suspense } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { About, Shop } from '@/pages';
 

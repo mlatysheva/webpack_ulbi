@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import classes from './App.module.scss';
 import { Link, Outlet } from 'react-router-dom';
 import avatarPng from '@/assets/avatar3.png';
