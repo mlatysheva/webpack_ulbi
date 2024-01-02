@@ -27,12 +27,12 @@ export const App = () => {
   // }
 
   return (
-    <div>
+    <div data-testid={'App.DataTestId'}>
       <Link to="/about">About</Link>
       <br />
       <Link to="/shop">Shop</Link>
       <br />
-      <h2>Platform: {__PLATFORM__}</h2>
+      <h2 data-testid={'Platform.DataTestId'}>Platform: {__PLATFORM__}</h2>
       <img src={avatarPng} alt='' height={100} width={100} />
       <img src={avatarJpeg} alt='' height={100} width={100} />
       <div>
