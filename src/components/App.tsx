@@ -5,10 +5,20 @@ import avatarPng from '@/assets/avatar3.png';
 import avatarJpeg from '@/assets/avatar2.jpeg';
 import Avatar from '@/assets/avatar.svg';
 
+// TREE SHAKING
+function todo() {
+  todo2();
+}
+
+function todo2() {
+  throw new Error();
+}
+
 export const App = () => {
   const [count, setCount] = useState(0);
 
-  const increment = () => setCount(count + 1);
+  const increment = () => todo();
+  // setCount(count + 1);
 
   // if (__PLATFORM__ === 'mobile') {
   //   return (
